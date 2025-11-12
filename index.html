@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Team Core Solutions — Job | Loans | Marketing</title>
+  <meta name="description" content="Team Core Solutions — Free Job Placement, Loan Assistance, Digital Marketing. PAN India opportunities." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --blue:#0b3b8c;
+      --orange:#f36f21;
+      --muted:#6b7280;
+      --max-width:1100px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial; margin:0; color:#0b2540; background:#fff;}
+    .container{max-width:var(--max-width); margin:0 auto; padding:28px;}
+    header{display:flex; align-items:center; gap:18px; padding-top:6px; padding-bottom:8px;}
+    .logo{width:72px; height:72px; flex-shrink:0; display:inline-block; border-radius:8px; overflow:hidden; background:#fff; border:3px solid var(--orange); padding:6px;}
+    .brand{display:flex;flex-direction:column;}
+    .brand h1{margin:0;font-size:20px; color:var(--blue); letter-spacing:0.2px;}
+    .brand p{margin:2px 0 0; font-size:13px; color:var(--muted);}
+    nav{margin-left:auto; display:flex; gap:10px; align-items:center;}
+    .btn-primary{background:var(--orange); color:white; padding:10px 14px; border-radius:8px; text-decoration:none; font-weight:600;}
+    .hero{display:grid; grid-template-columns:1fr; gap:20px; margin-top:18px; align-items:center;}
+    .hero-inner{padding:26px; background: linear-gradient(180deg, rgba(11,59,140,0.04), transparent); border-radius:12px;}
+    .eyebrow{display:inline-block; background:var(--orange); color:white; padding:6px 10px; border-radius:999px; font-weight:700; font-size:13px;}
+    .hero h2{font-size:28px; margin:12px 0; color:var(--blue);}
+    .hero p{color:var(--muted); margin:0 0 14px; line-height:1.5;}
+    .cta-row{display:flex; gap:10px; flex-wrap:wrap;}
+    .cta{background:var(--blue); color:white; padding:12px 16px; border-radius:8px; text-decoration:none; font-weight:700;}
+    .secondary{border:1px solid #e6e9ee; padding:10px 14px; border-radius:8px; text-decoration:none; color:var(--blue); display:inline-flex; align-items:center; gap:8px;}
+    /* sections */
+    section{margin-top:26px; padding:18px 0;}
+    .grid{display:grid; gap:18px;}
+    .services{display:flex; gap:12px; flex-wrap:wrap;}
+    .card{flex:1 1 220px; min-width:200px; background:#fff; border-radius:12px; padding:16px; border:1px solid #eef2f6; box-shadow:0 6px 18px rgba(11,59,140,0.04);}
+    .card h3{margin:0 0 8px; font-size:16px; color:var(--blue);}
+    .card p{margin:0; color:var(--muted); font-size:14px;}
+    .list{display:flex; gap:10px; flex-wrap:wrap;}
+    .badge{background:var(--blue); color:white; padding:8px 12px; border-radius:999px; font-weight:700;}
+    /* contact */
+    .contact-wrap{display:grid; grid-template-columns:1fr 420px; gap:20px; align-items:start;}
+    .contact-card{padding:18px; border-radius:10px; background:linear-gradient(180deg, rgba(243,111,33,0.05), rgba(11,59,140,0.02)); border:1px solid #f3f3f3;}
+    .contact-card h4{margin:0 0 12px; color:var(--blue);}
+    form .field{display:flex; flex-direction:column; gap:6px; margin-bottom:12px;}
+    input, textarea, select{padding:10px 12px; border-radius:8px; border:1px solid #e6e9ee; font-size:14px;}
+    textarea{min-height:100px; resize:vertical;}
+    .form-row{display:flex; gap:10px;}
+    .small{font-size:13px; color:var(--muted);}
+    footer{margin-top:30px; padding:18px 0; color:var(--muted); border-top:1px solid #f1f5f9;}
+    .contact-list{display:flex; gap:18px; flex-direction:column;}
+    /* responsive */
+    @media (max-width:880px){ .contact-wrap{grid-template-columns:1fr;} .hero h2{font-size:22px;} header{gap:12px;} .brand h1{font-size:18px} }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <!-- Replace 'YOUR_LOGO.png' with your logo file name -->
+      <div class="logo">
+        <img src="TCS LGO.png" alt="Team Core Solutions" style="width:100%;height:100%;object-fit:contain;">
+      </div>
+      <div class="brand">
+        <h1>Team Core Solutions</h1>
+        <p>Your Growth Partner — Jobs • Loans • Marketing</p>
+      </div>
+
+      <nav>
+        <a class="secondary" href="#services">Services</a>
+        <a class="secondary" href="#about">About</a>
+        <a class="secondary" href="#contact">Contact</a>
+        <a class="btn-primary" href="#contact">Apply Now</a>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-inner">
+        <span class="eyebrow">FREE JOB PLACEMENT</span>
+        <h2>Free Job Placement • Loan Assistance • Digital Marketing</h2>
+        <p>Team Core Solutions provides PAN India placement and business services. We connect talent with verified companies, assist with loans, and grow businesses online.</p>
+        <div class="cta-row">
+          <a class="cta" href="#contact">Apply for Jobs</a>
+          <a class="secondary" href="#contact">Get Loan Help</a>
+          <a class="secondary" href="#contact">Discuss Marketing</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+      <div class="grid">
+        <div style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+          <div>
+            <h2 style="margin:0;color:var(--blue)">Our Services</h2>
+            <p class="small">Job Placement • Loan Process • Digital Marketing — Free candidate registration</p>
+          </div>
+          <div style="display:flex; gap:8px; align-items:center;">
+            <div class="badge">PAN India</div>
+            <div class="badge">Free Registration</div>
+          </div>
+        </div>
+
+        <div class="services">
+          <div class="card">
+            <h3>Job Placement</h3>
+            <p>Verified openings across Mumbai, Delhi, Pune, Bangalore, Chennai, Kolkata and more — for freshers and experienced candidates.</p>
+          </div>
+          <div class="card">
+            <h3>Loan Process</h3>
+            <p>Assist with Personal & Business loans, credit card support and quick approvals by trusted partners.</p>
+          </div>
+          <div class="card">
+            <h3>Digital Marketing</h3>
+            <p>Social media management, lead generation and targeted ads to help businesses scale.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Contact -->
+    <section id="about">
+      <div class="grid">
+        <div>
+          <h2 style="color:var(--blue); margin-top:0">About Team Core Solutions</h2>
+          <p style="color:var(--muted); line-height:1.6;">
+            Team Core Solutions is a trusted consultancy established in 2024, offering Job Placement, Loan Process, and Digital Marketing services across India.
+            Our mission is to connect talent, finance, and growth under one platform with transparency and efficiency.
+          </p>
+          <p class="small"><strong>Established:</strong> 2024 &nbsp; • &nbsp; <strong>Phone:</strong> 76662 68884 &nbsp; • &nbsp; <strong>Email:</strong> teamcoresolutions@gmail.com</p>
+        </div>
+
+        <div id="contact" class="contact-wrap">
+          <div class="contact-card">
+            <h4>Apply / Enquire</h4>
+
+            <!-- FORM: replace endpoint with your FormSubmit.co or other endpoint -->
+            <form id="contactForm" action="https://formspree.io/f/xpwkzepk" method="POST" onsubmit="return validateForm();">
+              <!-- If using formsubmit.co you can add hidden fields like below -->
+              <input type="hidden" name="_subject" value="New lead from Website - Team Core Solutions">
+              <input type="hidden" name="_template" value="table">
+              <div class="field">
+                <label class="small">Full Name</label>
+                <input type="text" name="Name" id="name" placeholder="Your full name" required>
+              </div>
+
+              <div class="form-row">
+                <div style="flex:1" class="field">
+                  <label class="small">Phone</label>
+                  <input type="tel" name="Phone" id="phone" placeholder="Mobile number" required pattern="[0-9]{10,15}">
+                </div>
+                <div style="flex:1" class="field">
+                  <label class="small">Email</label>
+                  <input type="email" name="Email" id="email" placeholder="you@example.com" required>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="small">Requirement</label>
+                <select name="Requirement" id="req" required>
+                  <option value="">Select</option>
+                  <option>Job Placement</option>
+                  <option>Loan Assistance</option>
+                  <option>Digital Marketing</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label class="small">Message (optional)</label>
+                <textarea name="Message" id="message" placeholder="Tell us a bit about requirement"></textarea>
+              </div>
+
+              <div style="display:flex; gap:10px; align-items:center;">
+                <button type="submit" class="cta" style="border:none;">Submit</button>
+                <div style="color:var(--muted); font-size:13px;">or DM us on Instagram: <strong>@team_core_solutions</strong></div>
+              </div>
+            </form>
+
+          </div>
+
+          <div style="padding:18px;">
+            <h4 style="margin-top:0; color:var(--blue)">Contact & Office</h4>
+            <div class="contact-list">
+              <div><strong>Address:</strong><br>Office No. 50, 1st Floor, Om Plaza Commercial Complex Building,<br>Near Station, Opp. ST Bus Depot, Nalasopara West - 401203</div>
+              <div><strong>Phone:</strong> <a href="tel:+917666268884" style="color:var(--blue); text-decoration:none;">76662 68884</a></div>
+              <div><strong>Email:</strong> <a href="mailto:teamcoresolutions@gmail.com" style="color:var(--blue); text-decoration:none;">teamcoresolutions@gmail.com</a></div>
+              <div><strong>Instagram:</strong> <a href="https://instagram.com/team_core_solutions" target="_blank" style="color:var(--blue); text-decoration:none;">@team_core_solutions</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
+        <div>© <strong>Team Core Solutions</strong> — 100% Free Candidate Registration • Since 2024</div>
+        <div style="color:var(--muted); font-size:13px;">Designed for quick mobile viewing • Update logo & form endpoint in the source file</div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    function validateForm(){
+      const name = document.getElementById('name').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const req = document.getElementById('req').value;
+      if(!name || !phone || !email || !req){
+        alert('Please fill all required fields.');
+        return false;
+      }
+      // basic phone check
+      const phoneDigits = phone.replace(/\D/g,'');
+      if(phoneDigits.length < 10){
+        alert('Please enter a valid phone number.');
+        return false;
+      }
+      return true;
+    }
+  </script>
+</body>
+</html>
